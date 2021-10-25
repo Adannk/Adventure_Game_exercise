@@ -31,7 +31,7 @@ int main() {
 
 	while(gameInformation)
 	{
-	//local variablies
+		//local variablies
 		string userInput;
 
 		system("cls");
@@ -80,8 +80,6 @@ int main() {
 				}
 	   			else
 	   			{	
-		 			cout << "Your input " << tryAgain << " is not valid.\n";
-		  			cout << "This program will assume that you want to continue.\n";
 		  			playerNameLoop = true;
 	   			}
     		}
@@ -258,6 +256,7 @@ int main() {
 			system("cls");
 			cout << "Welcome to your inventory and stats!\n";
 			cout << "Player Name: " << playerOne.playerName << endl;
+			cout << "Player Health: " << playerOne.playerHP << endl;
 			cout << "Player Experiance: " << playerOne.playerEXP << endl << endl;
 			cout << "This is what you own:\n\n";
 
@@ -268,9 +267,8 @@ int main() {
 			cout << endl;
 			system("pause");
 		}
-		else if (userInput == "QUIT")
-		mainProgram = false;
-
+		else if (userInput == "QUIT") mainProgram = false;
+		
 		//invalid input
 		else
 		{
