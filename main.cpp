@@ -85,7 +85,7 @@ int main() {
 		  			playerNameLoop = true;
 	   			}
     		}
-	//The game
+	//The main game starts
 	while(mainProgram)
 	{
 		//local variables
