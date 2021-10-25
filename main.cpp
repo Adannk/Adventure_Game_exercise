@@ -75,14 +75,14 @@ int main() {
 
 	   			else if (tryAgain == 'N')
 		  		{
-				  playerNameLoop = true;
-				  system("cls");
+					playerNameLoop = true;
+					system("cls");
 				}
 	   			else
 	   			{	
-		 		cout << "Your input " << tryAgain << " is not valid.\n";
-		  		cout << "This program will assume that you want to continue.\n";
-		  		playerNameLoop = true;
+		 			cout << "Your input " << tryAgain << " is not valid.\n";
+		  			cout << "This program will assume that you want to continue.\n";
+		  			playerNameLoop = true;
 	   			}
     		}
 	//The game
